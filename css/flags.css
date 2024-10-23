@@ -52,7 +52,7 @@ float:left;
 }
 
 /* Flag of Trinidad and Tobago */
-.whitet {
+.white2 {
 
 	width: 800px;
 	height: 100px;
@@ -63,7 +63,7 @@ float:left;
 	transform: rotate(40deg);
 }
 
-.redt {
+.red2 {
 	width: 600px;
 	height: 400px;
 	background-color: red;
