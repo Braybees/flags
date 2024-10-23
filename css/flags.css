@@ -8,26 +8,24 @@
 
 /* Flag of Belgium */
 .black {
-		width: 200px;
-		height: 400px;
-		background-color: black;
-		float:left;
+	width: 200px;
+	height: 400px;
+	background-color: black;
+	float:left;
 }
 
 .yellow {
 	width: 200px;
 	height: 400px;
- background-color: yellow;
- float: left;
-
+ 	background-color: yellow;
+ 	float: left;
 }
 
 .red {
 	width: 200px;
 	height: 400px;
-background-color: red;
-float:left;
-
+	background-color: red;
+	float:left;
 }
 
 
@@ -35,9 +33,7 @@ float:left;
 .white {
 	width: 600px;
 	height: 200px;
-	
 	position: absolute;
-	
 }
 
 .circle {
@@ -48,11 +44,10 @@ float:left;
 	position: relative;
 	top: 100px;
 	left: 200px;
-	
 }
 
 /* Flag of Trinidad and Tobago */
-.white2 {
+/*.white2 {
 
 	width: 800px;
 	height: 100px;
@@ -61,24 +56,24 @@ float:left;
 	left: -100px;
 	position: absolute;
 	transform: rotate(40deg);
-}
+} */
 
 .red2 {
 	width: 600px;
 	height: 400px;
 	background-color: red;
 	position: absolute;
-
 }
 
 .stripe {
-	width: 800px;
-	height: 80px;
+	width: 110px;
+	height: 1100px;
 	background-color: black;
-	top: 150px;
-	left: -115px;
-	position:absolute;
-	transform:rotate(40deg);
+	position: relative;
+	top: -100px;
+	left: 123px;
+	transform: rotate(-45deg)translate(175%);
 	overflow: hidden;
-
+	border-left: 17px solid white;
+	border-right: 17px solid white;
 }
